@@ -1,0 +1,19 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this is about the packge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "angular"
+  ],
+  "author": "Edureka",
+  "license": "ISC",
+  "dependencies": {
+    "@aakashdeveloper/create-node-app": "^1.0.41",
+    "zone.js": "^0.9.0"
+  }
+}

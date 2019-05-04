@@ -1,0 +1,732 @@
+[
+    {
+        "privateRemarks": "This property is a trial property to test the SimplyRETS. Private agent remarks will be included in this field for use in the SimplyRETS REST API. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "showingContactName": null,
+        "property": {
+            "roof": "Tile",
+            "cooling": null,
+            "style": "Colonial, Split Level",
+            "area": 2607,
+            "bathsFull": 2,
+            "bathsHalf": 6,
+            "stories": 4,
+            "fireplaces": 1,
+            "flooring": null,
+            "heating": "Forced Air,Furnace,Oil,Pellet",
+            "bathrooms": null,
+            "foundation": "Block & Beam",
+            "laundryFeatures": "Dryer Included,Gas & Electric Dryer Hookup,Gas Dryer Hookup,In Garage,Washer Hookup,Washer Included",
+            "occupantName": null,
+            "ownerName": null,
+            "lotDescription": "Cul-de-sac,Fenced Yard",
+            "pool": "None",
+            "subType": null,
+            "bedrooms": 2,
+            "interiorFeatures": "2 Staircases, Hollywood Bath, Island Kitchen",
+            "lotSize": "139.54 X 812.23 IRR",
+            "areaSource": "PVA Office",
+            "maintenanceExpense": null,
+            "additionalRooms": "Family Room,Loft,Media Room,Screened Porch,Separate Lvng Rm",
+            "exteriorFeatures": "Back Yard Fenced, Covered Patio/Deck, Sprinkler System",
+            "water": null,
+            "view": "Golf Course",
+            "lotSizeArea": null,
+            "subdivision": "Glen Arbor Sec 07",
+            "construction": "Area,In Closet,In Garage,Inside",
+            "parking": {
+                "leased": null,
+                "spaces": 0,
+                "description": "Parking Lot,2 Assigned,2 Unassigned,1-2 Step Entry"
+            },
+            "lotSizeAreaUnits": null,
+            "type": "CND",
+            "garageSpaces": 5.14262588463633,
+            "bathsThreeQuarter": null,
+            "accessibility": "Automatic Gate",
+            "acres": null,
+            "occupantType": null,
+            "subTypeText": null,
+            "yearBuilt": 1959
+        },
+        "mlsId": 1005160,
+        "showingContactPhone": null,
+        "terms": "Submit,Cash,Cash To Existing Loan,Cash To New Loan,Assumable,Exchange,Owner May Carry,Owner Will Carry,Trade",
+        "showingInstructions": "The showing instructions for this trial property are brought to you by the SimplyRETS team. This field will include any showing remarks for the given listing in your RETS feed. Enjoy!",
+        "office": {
+            "contact": null,
+            "name": null,
+            "servingName": null,
+            "brokerid": null
+        },
+        "leaseTerm": null,
+        "disclaimer": "This information is believed to be accurate, but without warranty.",
+        "address": {
+            "crossStreet": "Winged Foot",
+            "state": "Texas",
+            "country": "United States",
+            "postalCode": "77095",
+            "streetName": "South SW 368 ST& SW 214 AV Groves",
+            "streetNumberText": "56585",
+            "city": "The Woodlands",
+            "streetNumber": 56585,
+            "full": "56585 South SW 368 ST& SW 214 AV Groves #6A2",
+            "unit": "6A2"
+        },
+        "agreement": "Exclusive Agency",
+        "listDate": "1995-01-05T21:20:35.957061Z",
+        "agent": {
+            "lastName": "Rivera",
+            "contact": null,
+            "firstName": "Jolie",
+            "id": "jrivera"
+        },
+        "modified": "2003-05-30T17:37:32.270926Z",
+        "school": {
+            "middleSchool": "huffman",
+            "highSchool": "SBISD",
+            "elementarySchool": "Walnut Bend",
+            "district": null
+        },
+        "photos": [
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home3.jpg",
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home-inside-3.jpg"
+        ],
+        "listPrice": 21445988,
+        "listingId": "51337707",
+        "mls": {
+            "status": "Active",
+            "area": "Medical Center Area",
+            "daysOnMarket": 760,
+            "originatingSystemName": null,
+            "statusText": "",
+            "areaMinor": null
+        },
+        "geo": {
+            "county": "East",
+            "lat": 29.700173,
+            "lng": -95.3836819,
+            "marketArea": "Medical Center Area",
+            "directions": "From 290 exit Barker Cypress to left on Tuckerton, right on Danbury Bridge, right on Bending Post, right on Driftwood Prairie"
+        },
+        "tax": {
+            "taxYear": 1989,
+            "taxAnnualAmount": 4272,
+            "id": "874-453-304-4692"
+        },
+        "coAgent": {
+            "lastName": null,
+            "contact": null,
+            "firstName": null,
+            "id": "ACME12"
+        },
+        "sales": {
+            "closeDate": "2015-01-23T12:35:32.759159Z",
+            "office": {
+                "contact": null,
+                "name": "SimplyRETS Trial Brokerage 1",
+                "servingName": "SimplyRETS Trial Brokerage 1",
+                "brokerid": "SR1234"
+            },
+            "closePrice": 21758743,
+            "agent": {
+                "lastName": "Juarez",
+                "contact": null,
+                "firstName": "Vanna",
+                "id": "vjuarez"
+            },
+            "contractDate": null
+        },
+        "leaseType": "Modified Gross",
+        "virtualTourUrl": null,
+        "remarks": "This property is a trial property to test the SimplyRETS. This field will include remarks or descriptions from your RETS feed intended for public view. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "association": {
+            "fee": 1000,
+            "name": "SimplyRETS Home Owners Association",
+            "amenities": "Club House,Community Pool,Garden/ Greenbelt/ Trails,Playground,Recreation Room,Sauna/ Spa/ Hot Tub"
+        }
+    },
+    {
+        "privateRemarks": "This property is a trial property to test the SimplyRETS. Private agent remarks will be included in this field for use in the SimplyRETS REST API. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "showingContactName": null,
+        "property": {
+            "roof": "Composition",
+            "cooling": null,
+            "style": "Ranch",
+            "area": 1036,
+            "bathsFull": 2,
+            "bathsHalf": 2,
+            "stories": 1,
+            "fireplaces": 0,
+            "flooring": null,
+            "heating": "Baseboard,Individual Rm Controls,Space Heater",
+            "bathrooms": null,
+            "foundation": "Slab",
+            "laundryFeatures": "Gas Dryer Hookup,In Closet,Inside,Stackable",
+            "occupantName": null,
+            "ownerName": null,
+            "lotDescription": "Golf Course Lot,Landscaped Professionally,Pond",
+            "pool": "Association,Community Pool",
+            "subType": "SingleFamilyResidence",
+            "bedrooms": 2,
+            "interiorFeatures": "Alarm System - Leased, High Ceiling",
+            "lotSize": "127X146",
+            "areaSource": "Builder floor plan(s)",
+            "maintenanceExpense": null,
+            "additionalRooms": "Dressing Area,Family Room,Formal Entry",
+            "exteriorFeatures": "Back Yard, Back Yard Fenced, Covered Patio/Deck, Patio/Deck",
+            "water": null,
+            "view": "Golf Course",
+            "lotSizeArea": null,
+            "subdivision": "Towne Lake",
+            "construction": "Propane Dryer Hookup,Area",
+            "parking": {
+                "leased": null,
+                "spaces": 5,
+                "description": "Parking Lot,2 Assigned,2 Unassigned,1-2 Step Entry"
+            },
+            "lotSizeAreaUnits": null,
+            "type": "RES",
+            "garageSpaces": 2.18547333350026,
+            "bathsThreeQuarter": null,
+            "accessibility": "Driveway Gate",
+            "acres": null,
+            "occupantType": null,
+            "subTypeText": null,
+            "yearBuilt": 2004
+        },
+        "mlsId": 1005164,
+        "showingContactPhone": null,
+        "terms": "Submit,Cash,Cash To New Loan,All Inclusive Trust Deed,Owner May Carry",
+        "showingInstructions": "The showing instructions for this trial property are brought to you by the SimplyRETS team. This field will include any showing remarks for the given listing in your RETS feed. Enjoy!",
+        "office": {
+            "contact": null,
+            "name": null,
+            "servingName": null,
+            "brokerid": null
+        },
+        "leaseTerm": null,
+        "disclaimer": "This information is believed to be accurate, but without warranty.",
+        "address": {
+            "crossStreet": "Hwy 89/10th Sideroad",
+            "state": "Texas",
+            "country": "United States",
+            "postalCode": "77018",
+            "streetName": "West Grace Hollow Estates",
+            "streetNumberText": "73373",
+            "city": "Oak Ridge",
+            "streetNumber": 73373,
+            "full": "73373 West Grace Hollow Estates #B720 C",
+            "unit": "B720 C"
+        },
+        "agreement": "Purchaser Exemptions",
+        "listDate": "2007-04-11T11:43:38.029369Z",
+        "agent": {
+            "lastName": "Mcneil",
+            "contact": null,
+            "firstName": "Mark",
+            "id": "mmcneil"
+        },
+        "modified": "1997-05-02T02:01:36.120375Z",
+        "school": {
+            "middleSchool": "MCWHIRTER",
+            "highSchool": "KATY",
+            "elementarySchool": "Pattison",
+            "district": null
+        },
+        "photos": [
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home4.jpg",
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home-inside-4.jpg"
+        ],
+        "listPrice": 3242165,
+        "listingId": "6253995",
+        "mls": {
+            "status": "Pending",
+            "area": "1960/Cypress Creek North",
+            "daysOnMarket": 694,
+            "originatingSystemName": null,
+            "statusText": "",
+            "areaMinor": null
+        },
+        "geo": {
+            "county": "West",
+            "lat": 29.790964,
+            "lng": -95.551066,
+            "marketArea": "1960/Cypress Creek North",
+            "directions": "From 290 exit Barker Cypress to left on Tuckerton, right on Danbury Bridge, right on Bending Post, right on Driftwood Prairie"
+        },
+        "tax": {
+            "taxYear": 1994,
+            "taxAnnualAmount": 5599,
+            "id": "878-123-843-6924"
+        },
+        "coAgent": {
+            "lastName": null,
+            "contact": null,
+            "firstName": null,
+            "id": "HOU32"
+        },
+        "sales": {
+            "closeDate": "2013-02-07T12:07:00.391718Z",
+            "office": {
+                "contact": null,
+                "name": "Houston Properties",
+                "servingName": "Houston Properties",
+                "brokerid": "HPM34"
+            },
+            "closePrice": 9510585,
+            "agent": {
+                "lastName": "Boyle",
+                "contact": null,
+                "firstName": "Bruce",
+                "id": "bboyle"
+            },
+            "contractDate": null
+        },
+        "leaseType": "Net,Triple Net",
+        "virtualTourUrl": null,
+        "remarks": "This property is a trial property to test the SimplyRETS. This field will include remarks or descriptions from your RETS feed intended for public view. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "association": {
+            "fee": 1000,
+            "name": "SimplyRETS Home Owners Association",
+            "amenities": "Club House,Community Pool,Garden/ Greenbelt/ Trails,Playground,Recreation Room,Sauna/ Spa/ Hot Tub"
+        }
+    },
+    {
+        "privateRemarks": "This property is a trial property to test the SimplyRETS. Private agent remarks will be included in this field for use in the SimplyRETS REST API. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "showingContactName": null,
+        "property": {
+            "roof": "Other",
+            "cooling": null,
+            "style": "Ranch",
+            "area": 2018,
+            "bathsFull": 6,
+            "bathsHalf": 3,
+            "stories": 5,
+            "fireplaces": 1,
+            "flooring": null,
+            "heating": "Gas Pac,Heat Pump 2nd Lvl,Split System",
+            "bathrooms": null,
+            "foundation": "Pier & Beam, Slab",
+            "laundryFeatures": "Gas & Electric Dryer Hookup,Gas Dryer Hookup,Inside,Individual Room",
+            "occupantName": null,
+            "ownerName": null,
+            "lotDescription": "Private Backyard",
+            "pool": "Association",
+            "subType": "Condominium",
+            "bedrooms": 1,
+            "interiorFeatures": "Breakfast Bar, Fire/Smoke Alarm, Wet Bar",
+            "lotSize": "72X140X79X107",
+            "areaSource": "County PVA",
+            "maintenanceExpense": null,
+            "additionalRooms": "All Bedrooms Up,Entry,Family Room,Foyer,Home Theatre,Living Room,Loft,Master Bedroom,Master Suite,Separate Family Room,Study/Office,Walk-In Closet,Walk-In Pantry",
+            "exteriorFeatures": "Back Yard, Covered Patio/Deck, Sprinkler System",
+            "water": null,
+            "view": "None",
+            "lotSizeArea": null,
+            "subdivision": "Champions Centre Estates Sec",
+            "construction": "Community,None",
+            "parking": {
+                "leased": null,
+                "spaces": 7,
+                "description": "1 Car Garage,Auto Garage Door,Detached,Driveway"
+            },
+            "lotSizeAreaUnits": null,
+            "type": "RES",
+            "garageSpaces": 7.69366466123807,
+            "bathsThreeQuarter": null,
+            "accessibility": "Manned Gate",
+            "acres": null,
+            "occupantType": null,
+            "subTypeText": null,
+            "yearBuilt": 1955
+        },
+        "mlsId": 1005165,
+        "showingContactPhone": null,
+        "terms": "Submit,Cash,All Inclusive Trust Deed,Contract,Conventional,Exchange,Owner May Carry",
+        "showingInstructions": "The showing instructions for this trial property are brought to you by the SimplyRETS team. This field will include any showing remarks for the given listing in your RETS feed. Enjoy!",
+        "office": {
+            "contact": null,
+            "name": null,
+            "servingName": null,
+            "brokerid": null
+        },
+        "leaseTerm": null,
+        "disclaimer": "This information is believed to be accurate, but without warranty.",
+        "address": {
+            "crossStreet": "Wells Ln",
+            "state": "Texas",
+            "country": "United States",
+            "postalCode": "77007",
+            "streetName": "South Wilbur Ave Pl",
+            "streetNumberText": "62993",
+            "city": "The Woodlands",
+            "streetNumber": 62993,
+            "full": "62993 South Wilbur Ave Pl #2035",
+            "unit": "2035"
+        },
+        "agreement": "Variable Rate",
+        "listDate": "2002-01-28T23:44:14.858874Z",
+        "agent": {
+            "lastName": "Hebert",
+            "contact": null,
+            "firstName": "Astra",
+            "id": "aherbert"
+        },
+        "modified": "2010-06-06T05:37:29.553536Z",
+        "school": {
+            "middleSchool": "Harvey Brown",
+            "highSchool": "SBISD",
+            "elementarySchool": "Katy",
+            "district": null
+        },
+        "photos": [
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home4.jpg",
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home-inside-4.jpg"
+        ],
+        "listPrice": 774444,
+        "listingId": "58343654",
+        "mls": {
+            "status": "Pending",
+            "area": "Alief",
+            "daysOnMarket": 821,
+            "originatingSystemName": null,
+            "statusText": "",
+            "areaMinor": null
+        },
+        "geo": {
+            "county": "West",
+            "lat": 29.745579,
+            "lng": -95.368357,
+            "marketArea": "Alief",
+            "directions": "From 290 exit Barker Cypress to left on Tuckerton, right on Danbury Bridge, right on Bending Post, right on Driftwood Prairie"
+        },
+        "tax": {
+            "taxYear": 1951,
+            "taxAnnualAmount": 4854,
+            "id": "874-453-304-4692"
+        },
+        "coAgent": {
+            "lastName": null,
+            "contact": null,
+            "firstName": null,
+            "id": "TR098"
+        },
+        "sales": {
+            "closeDate": "2006-01-15T04:03:24.084981Z",
+            "office": {
+                "contact": null,
+                "name": "SimplyRETS Trial Brokerage 1",
+                "servingName": "SimplyRETS Trial Brokerage 1",
+                "brokerid": "SR1234"
+            },
+            "closePrice": 18168506,
+            "agent": {
+                "lastName": "Boyle",
+                "contact": null,
+                "firstName": "Bruce",
+                "id": "bboyle"
+            },
+            "contractDate": null
+        },
+        "leaseType": "Double Net,Full,Triple Net",
+        "virtualTourUrl": null,
+        "remarks": "This property is a trial property to test the SimplyRETS. This field will include remarks or descriptions from your RETS feed intended for public view. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "association": {
+            "fee": 1000,
+            "name": "SimplyRETS Home Owners Association",
+            "amenities": "Club House,Community Pool,Garden/ Greenbelt/ Trails,Playground,Recreation Room,Sauna/ Spa/ Hot Tub"
+        }
+    },
+    {
+        "privateRemarks": "This property is a trial property to test the SimplyRETS. Private agent remarks will be included in this field for use in the SimplyRETS REST API. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "showingContactName": null,
+        "property": {
+            "roof": "Other",
+            "cooling": null,
+            "style": "Other Style",
+            "area": 3363,
+            "bathsFull": 5,
+            "bathsHalf": 6,
+            "stories": 5,
+            "fireplaces": 1,
+            "flooring": null,
+            "heating": "Forced Air 90+,Geothermal,Zoned,Other",
+            "bathrooms": null,
+            "foundation": "Block & Beam",
+            "laundryFeatures": "Stackable,Washer Included,Dryer Included,Inside",
+            "occupantName": null,
+            "ownerName": null,
+            "lotDescription": "Backs to Trees/Woods",
+            "pool": "Central Electric",
+            "subType": null,
+            "bedrooms": 1,
+            "interiorFeatures": "High Ceiling",
+            "lotSize": "71 X 130",
+            "areaSource": "Estimated",
+            "maintenanceExpense": null,
+            "additionalRooms": "Family,Formal Living,Frog Attached,Living/Dining Combo,Separate Dining",
+            "exteriorFeatures": "Back Yard Fenced, Porch",
+            "water": null,
+            "view": "Golf Course",
+            "lotSizeArea": null,
+            "subdivision": "Vineyard Mdw Sec 01",
+            "construction": "In Kitchen,Area,Inside",
+            "parking": {
+                "leased": null,
+                "spaces": 0,
+                "description": "Parking Lot,2 Assigned,2 Unassigned,1-2 Step Entry"
+            },
+            "lotSizeAreaUnits": null,
+            "type": "CND",
+            "garageSpaces": 1.20570543236401,
+            "bathsThreeQuarter": null,
+            "accessibility": "Automatic Gate",
+            "acres": null,
+            "occupantType": null,
+            "subTypeText": null,
+            "yearBuilt": 1984
+        },
+        "mlsId": 1005166,
+        "showingContactPhone": null,
+        "terms": "Contract",
+        "showingInstructions": "The showing instructions for this trial property are brought to you by the SimplyRETS team. This field will include any showing remarks for the given listing in your RETS feed. Enjoy!",
+        "office": {
+            "contact": null,
+            "name": null,
+            "servingName": null,
+            "brokerid": null
+        },
+        "leaseTerm": null,
+        "disclaimer": "This information is believed to be accurate, but without warranty.",
+        "address": {
+            "crossStreet": "Brock St/Woodlands",
+            "state": "Texas",
+            "country": "United States",
+            "postalCode": "77018",
+            "streetName": "West BEAD GRASS TER Gate",
+            "streetNumberText": "96294",
+            "city": "Cypress",
+            "streetNumber": 96294,
+            "full": "96294 West BEAD GRASS TER Gate #4059",
+            "unit": "4059"
+        },
+        "agreement": "Trans. Brokerage",
+        "listDate": "2012-11-07T04:18:29.721376Z",
+        "agent": {
+            "lastName": "Rice",
+            "contact": null,
+            "firstName": "Nyssa",
+            "id": "nrice"
+        },
+        "modified": "2012-06-05T15:55:18.711623Z",
+        "school": {
+            "middleSchool": "Love",
+            "highSchool": "Aldine",
+            "elementarySchool": "Harvard",
+            "district": null
+        },
+        "photos": [
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home2.jpg",
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home-inside-2.jpg"
+        ],
+        "listPrice": 17450668,
+        "listingId": "18684882",
+        "mls": {
+            "status": "Active",
+            "area": "Cypress North",
+            "daysOnMarket": 550,
+            "originatingSystemName": null,
+            "statusText": "",
+            "areaMinor": null
+        },
+        "geo": {
+            "county": "East",
+            "lat": 29.978052,
+            "lng": -95.485041,
+            "marketArea": "Cypress North",
+            "directions": "From 290 exit Barker Cypress to left on Tuckerton, right on Danbury Bridge, right on Bending Post, right on Driftwood Prairie"
+        },
+        "tax": {
+            "taxYear": 2010,
+            "taxAnnualAmount": 5722,
+            "id": "873-324-454-4544"
+        },
+        "coAgent": {
+            "lastName": null,
+            "contact": null,
+            "firstName": null,
+            "id": "HOU32"
+        },
+        "sales": {
+            "closeDate": "2010-09-07T18:22:41.643623Z",
+            "office": {
+                "contact": null,
+                "name": "Keller Williams Greater Houston",
+                "servingName": "Keller Williams Greater Houston",
+                "brokerid": "KWCO834"
+            },
+            "closePrice": 17681105,
+            "agent": {
+                "lastName": "Mccormick",
+                "contact": null,
+                "firstName": "Idola",
+                "id": "dmccormick"
+            },
+            "contractDate": null
+        },
+        "leaseType": "Negotiable",
+        "virtualTourUrl": null,
+        "remarks": "This property is a trial property to test the SimplyRETS. This field will include remarks or descriptions from your RETS feed intended for public view. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "association": {
+            "fee": 1000,
+            "name": "SimplyRETS Home Owners Association",
+            "amenities": "Club House,Community Pool,Garden/ Greenbelt/ Trails,Playground,Recreation Room,Sauna/ Spa/ Hot Tub"
+        }
+    },
+    {
+        "privateRemarks": "This property is a trial property to test the SimplyRETS. Private agent remarks will be included in this field for use in the SimplyRETS REST API. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "showingContactName": null,
+        "property": {
+            "roof": "Composition",
+            "cooling": null,
+            "style": "Ranch",
+            "area": 1535,
+            "bathsFull": 4,
+            "bathsHalf": 6,
+            "stories": 2,
+            "fireplaces": 3,
+            "flooring": null,
+            "heating": "Forced Air,Gas,Stove - Wood",
+            "bathrooms": null,
+            "foundation": "Block & Beam",
+            "laundryFeatures": "Propane Dryer Hookup,Area",
+            "occupantName": null,
+            "ownerName": null,
+            "lotDescription": "Cul-De-Sac,Private Backyard,Wooded",
+            "pool": "Central Electric",
+            "subType": "Townhouse",
+            "bedrooms": 2,
+            "interiorFeatures": "Alarm System - Owned, Drapes/Curtains/Window Cover, Dryer Included, Fire/Smoke Alarm, High Ceiling, Island Kitchen, Refrigerator Included, Washer Included, Wet Bar",
+            "lotSize": "35X163",
+            "areaSource": "Estimated",
+            "maintenanceExpense": null,
+            "additionalRooms": "2nd Kitchen,Enclosed Porch,Sitting Room",
+            "exteriorFeatures": "Covered Patio/Deck, Fully Fenced, Outdoor Fireplace, Patio/Deck, Spa/Hot Tub, Sprinkler System, Wheelchair Access",
+            "water": null,
+            "view": "Hills,Neighborhood,Trees/Woods",
+            "lotSizeArea": null,
+            "subdivision": "Vineyard Mdw Sec 01",
+            "construction": "Stackable,Washer Included,Dryer Included,Inside",
+            "parking": {
+                "leased": null,
+                "spaces": 5,
+                "description": "3 Unassigned"
+            },
+            "lotSizeAreaUnits": null,
+            "type": "RES",
+            "garageSpaces": 1.76553988669759,
+            "bathsThreeQuarter": null,
+            "accessibility": "Driveway Gate",
+            "acres": null,
+            "occupantType": null,
+            "subTypeText": null,
+            "yearBuilt": 1988
+        },
+        "mlsId": 1005168,
+        "showingContactPhone": null,
+        "terms": "Month-Mo",
+        "showingInstructions": "The showing instructions for this trial property are brought to you by the SimplyRETS team. This field will include any showing remarks for the given listing in your RETS feed. Enjoy!",
+        "office": {
+            "contact": null,
+            "name": null,
+            "servingName": null,
+            "brokerid": null
+        },
+        "leaseTerm": null,
+        "disclaimer": "This information is believed to be accurate, but without warranty.",
+        "address": {
+            "crossStreet": "willow pass",
+            "state": "Texas",
+            "country": "United States",
+            "postalCode": "77346",
+            "streetName": "West HARALSON Parkway",
+            "streetNumberText": "83115",
+            "city": "The Woodlands",
+            "streetNumber": 83115,
+            "full": "83115 West HARALSON Parkway #1-406",
+            "unit": "1-406"
+        },
+        "agreement": "Probate",
+        "listDate": "2010-10-20T01:09:12.347045Z",
+        "agent": {
+            "lastName": "Phelps",
+            "contact": null,
+            "firstName": "Shoshana",
+            "id": "sphelps"
+        },
+        "modified": "1994-03-02T21:14:24.804105Z",
+        "school": {
+            "middleSchool": "Other",
+            "highSchool": "Reagan",
+            "elementarySchool": "PISD",
+            "district": null
+        },
+        "photos": [
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home14.jpg",
+            "https://s3-us-west-2.amazonaws.com/cdn.simplyrets.com/properties/trial/home-inside-14.jpg"
+        ],
+        "listPrice": 18678230,
+        "listingId": "29498303",
+        "mls": {
+            "status": "Pending",
+            "area": "Champions Area",
+            "daysOnMarket": 701,
+            "originatingSystemName": null,
+            "statusText": "",
+            "areaMinor": null
+        },
+        "geo": {
+            "county": "South",
+            "lat": 30.046881,
+            "lng": -95.220381,
+            "marketArea": "Champions Area",
+            "directions": "From 290 exit Barker Cypress to left on Tuckerton, right on Danbury Bridge, right on Bending Post, right on Driftwood Prairie"
+        },
+        "tax": {
+            "taxYear": 2008,
+            "taxAnnualAmount": 4374,
+            "id": "873-324-454-4544"
+        },
+        "coAgent": {
+            "lastName": null,
+            "contact": null,
+            "firstName": null,
+            "id": "SR1234"
+        },
+        "sales": {
+            "closeDate": "2000-01-28T17:05:20.361472Z",
+            "office": {
+                "contact": null,
+                "name": "Trial Realty, Inc",
+                "servingName": "Trial Realty, Inc",
+                "brokerid": "TR098"
+            },
+            "closePrice": 12138978,
+            "agent": {
+                "lastName": "Gardner",
+                "contact": null,
+                "firstName": "Branden",
+                "id": "bgardner"
+            },
+            "contractDate": null
+        },
+        "leaseType": "Negotiable",
+        "virtualTourUrl": null,
+        "remarks": "This property is a trial property to test the SimplyRETS. This field will include remarks or descriptions from your RETS feed intended for public view. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "association": {
+            "fee": 1000,
+            "name": "SimplyRETS Home Owners Association",
+            "amenities": "Club House,Community Pool,Garden/ Greenbelt/ Trails,Playground,Recreation Room,Sauna/ Spa/ Hot Tub"
+        }
+    }
+]

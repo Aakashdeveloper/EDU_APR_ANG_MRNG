@@ -1,0 +1,132 @@
+[
+    {
+      "name": "Hopdoddy Burger Bar",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
+      "category": "Burgers",
+      "contact": {
+        "phone": 9723872337,
+        "formattedPhone": "(972) 387-2337",
+        "twitter": "hopdoddy"
+      },
+      "location": {
+        "address": "5100 Belt Line Road, STE 502",
+        "crossStreet": "Dallas North Tollway",
+        "lat": 32.950787,
+        "lng": -96.821118,
+        "postalCode": "75254",
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Belt Line Road, STE 502 (Dallas North Tollway)",
+          "Addison, TX 75254",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Pappadeaux Seafood Kitchen",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pappadeaux.png",
+      "category": "Seafood",
+      "contact": {
+        "phone": "9724479616",
+        "formattedPhone": "(972) 447-9616",
+        "twitter": "pappadeaux"
+      },
+      "location": {
+        "address": "18349 Dallas Pkwy",
+        "crossStreet": "at Frankford Rd.",
+        "lat": 32.99908456526653,
+        "lng": -96.83018780592823,
+        "postalCode": "75287",
+        "cc": "US",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "18349 Dallas Pkwy (at Frankford Rd.)",
+          "Dallas, TX 75287",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Yard House",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/yardhouse.png",
+      "category": "Tap House",
+      "contact": {
+        "phone": "9727164004",
+        "formattedPhone": "(972) 716-4004",
+        "twitter": "yardhouse",
+        "facebook": "92873089221",
+        "facebookUsername": "YardHouse",
+        "facebookName": "Yard House"
+      },
+      "location": {
+        "address": "5100 Belt Line Rd",
+        "lat": 32.95061646,
+        "lng": -96.81974196,
+        "postalCode": "75254",
+        "cc": "US",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Belt Line Rd",
+          "Dallas, TX 75254",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Pluckers Wing Bar",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pluckers.png",
+      "category": "Wing Joint",
+      "contact": {
+        "phone": "9722472401",
+        "formattedPhone": "(972) 247-2401",
+        "twitter": "ramenhakata"
+      },
+      "location": {
+        "address": "5100 Beltline Rd",
+        "lat": 32.95097877918451,
+        "lng": -96.82020769859702,
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "5100 Beltline Rd",
+          "Addison, TX",
+          "United States"
+        ]
+      }
+    },
+    {
+      "name": "Ramen Hakata",
+      "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/ramen_hakata.png",
+      "category": "Japanese",
+      "contact": {
+        "phone": "9722472401",
+        "formattedPhone": "(972) 247-2401",
+        "twitter": "ramenhakata"
+      },
+      "location": {
+        "address": "3714 Belt Line Rd",
+        "crossStreet": "Marsh",
+        "lat": 32.95270483276971,
+        "lng": -96.85424159312772,
+        "postalCode": "75001",
+        "cc": "US",
+        "city": "Addison",
+        "state": "TX",
+        "country": "United States",
+        "formattedAddress": [
+          "3714 Belt Line Rd (Marsh)",
+          "Addison, TX 75001",
+          "United States"
+        ]
+      }
+    }
+  ]

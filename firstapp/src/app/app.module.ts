@@ -6,6 +6,8 @@ import { BrowserModule } from '@angular/platform-browser';
 // Component
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './movies.component';
+import { ProductComponent } from './products/product.component';
+
 
 // decorater (matadata)
 @NgModule({
@@ -17,7 +19,8 @@ import { MoviesComponent } from './movies.component';
     // All Component and pipe
     declarations: [
         AppComponent,
-        MoviesComponent
+        MoviesComponent,
+        ProductComponent
     ],
 
     // Only first/main component

@@ -141,4 +141,55 @@ style.css       | not imp     => to implement any style accros the app
 *********************************/
 
 angular.json => src/main.ts => scr/app.module.ts => src/app.component.ts
-      
+
+/*********************************
+   BootStrap Tags
+*********************************/
+Grid Basic
+Table
+Alerts
+Button
+Glyphicons
+Panels
+Collapse
+Navbar
+Forms
+Input
+Modal
+
+
+/*********************************
+   Binding In Angular
+*********************************/
+One Way Binding
+> Data Binding {{}}
+> Property Binding []
+> Event Binding ()
+Two Way Binding [()]
+
+/*********************************
+  DataTypes in Typescript
+*********************************/
+
+String
+Number
+Boolean
+any[]
+
+
+
+
+var a = ["a","b","c","d"]
+undefined
+a[0]
+"a"
+a[2]
+"c"
+for(i=0; i<a.length; i++) { console.log(a[i])
+                          }
+VM1164:1 a
+VM1164:1 b
+VM1164:1 c
+VM1164:1 d
+
+https://github.com/Aakashdeveloper/public-apis

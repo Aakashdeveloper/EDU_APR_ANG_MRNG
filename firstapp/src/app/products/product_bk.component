@@ -1,0 +1,55 @@
+<div  class="panel panel-primary">
+    <div class="panel-heading">
+        Products Page
+    </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Angular</td>
+                </tr>
+                <tr>
+                    <td>Bill</td>
+                    <td>NodeJS</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="button">Click</button>
+        <button type="button" class="btn btn-success">Click</button>
+        <button type="button" class="btn btn-danger">Click</button>
+        <button type="button" class="btn btn-warning">Click</button>
+        <button type="button" class="btn btn-primary">Click</button>
+        <button type="button" class="btn btn-info">Click</button>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <input type="text" />
+            </div>
+            
+        </div>
+    </div>  
+</div>

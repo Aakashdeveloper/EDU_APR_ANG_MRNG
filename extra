@@ -84,6 +84,7 @@ step 7 > http://localhost:4200
     Command to Start app
 ************************/
 Step 1> Go inside the folder
+>>>>> type npm install
 Step 2> npm start/ng serve/ng serve --port 8800
 
 /*********************************
@@ -193,3 +194,63 @@ VM1164:1 c
 VM1164:1 d
 
 https://github.com/Aakashdeveloper/public-apis
+
+
+/*********************************
+   Pipe/Filter in Angular
+*********************************/
+Inbuilt
+> UpperCase| LowerCase | Currency | Date | Percentage | TitleCase
+Custome
+> Any logic with pipe & pipetransform
+
+
+
+// Javascript Es5
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+// Typescript / javascript Es6
+var add = (a,b) => { return a+b }
+
+add(1,2)
+
+var a = 10
+var a;
+a = 10
+
+/*********************************
+  Declare
+*********************************/
+     |  redecalre  | reassign
+var        yes           yes
+let        no            yes
+const      no            no
+
+/*********************************
+  Filter
+*********************************/
+
+var ages = [32, 33, 16, 40];
+ages.filter((aakash) => { return age>=18 });
+
+/*********************************
+  IndexOf
+*********************************/
+
+undefined
+var myarray = ["a","b","c","d"]
+undefined
+myarray.indexOf("a")
+0
+myarray.indexOf("c")
+2
+myarray.indexOf("e")
+-1
+myarray.indexOf("d")
+3
+myarray.indexOf("f")
+-1

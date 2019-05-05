@@ -3,24 +3,33 @@
 import { NgModule } from '@angular/core';
 // To display app on browser
 import { BrowserModule } from '@angular/platform-browser';
+// For forms Element
+import { FormsModule } from '@angular/Forms';
 // Component
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './movies.component';
 import { ProductComponent } from './products/product.component';
+import { MyUpperPipe } from './products/myUpper.pipe';
+import { DiscountPipe } from './products/myDiscount.pipe';
+import { ProductSearchPipe } from './products/productFilter.pipe';
 
 
 // decorater (matadata)
 @NgModule({
     // All Module will declare here
     imports: [
-        BrowserModule
+        BrowserModule,
+        FormsModule
     ],
 
     // All Component and pipe
     declarations: [
         AppComponent,
         MoviesComponent,
-        ProductComponent
+        ProductComponent,
+        MyUpperPipe,
+        DiscountPipe,
+        ProductSearchPipe
     ],
 
     // Only first/main component

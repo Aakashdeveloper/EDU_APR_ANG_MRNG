@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IProduct } from './product.model';
 
 @Component({
     selector: 'app-product',
@@ -10,7 +11,8 @@ export class ProductComponent {
     mainHeading: string = '*****Products Page*****';
     showTable: boolean = true;
     showImage: boolean = false;
-    products: any[] = [
+    userText: string ;
+    products: IProduct[] = [
          {
             _id: '5a05db08734d1d68d42d3300',
             productId: 3,
@@ -43,6 +45,21 @@ export class ProductComponent {
             price: 35.95,
             starRating: 4.6,
             imageUrl: 'https://i.ibb.co/HD3RHMW/videogame.jpg'
+          },
+          {
+            _id: '5a05db3d734d1d68d42d3322',
+            productId: 10,
+            productName: 'my Video Game Controller',
+            productCode: 'GMG-0042',
+            releaseDate: 'October 15, 2015',
+            description: 'Standard two-button video game controller',
+            price: 35.95,
+            starRating: 4.6,
+            imageUrl: 'https://i.ibb.co/HD3RHMW/videogame.jpg'
           }
     ];
+
+    toggleImage(): void {
+        this.showImage = !this.showImage;
+    }
 }

@@ -254,3 +254,63 @@ myarray.indexOf("d")
 3
 myarray.indexOf("f")
 -1
+
+/*********************************
+  Way to add Css
+*********************************/
+1> Adding inside .ts
+2> Using Css File
+3> Inline Css
+4> Binding Dynamic Css
+5> Condtional Css  using ngStyle
+6> Using ngClasss
+
+/*********************************
+  LifeCycle Hookes
+*********************************/
+           | NgOnchanges    |     NgOnInit        | NgOnDestroy
+----------------------------------------------------------
+priority   |    1           |   2                 |      3
+FireTime   |When change     |   On Initialize     |  when we leave the component
+            detect
+
+/*********************************
+ Sharing Data
+*********************************/
+Parent to child => Input => Property => transfer from right to left
+Child to parent => Output => Event => transfer from left to right
+
+
+/*********************************
+concat
+*********************************/
+var a = 10
+var b= "my age is "+a
+my age is 10
+var c = `my age is ${a}`
+
+/*********************************
+Git Command
+*********************************/
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/gitlearn.git
+git push -u origin master
+
+>>>>second and all<<<<<<<
+git add .
+git commit -m "first commit"
+git push
+
+git branch -a
+git checkout -b feature
+git checkout master
+
+/*********************************
+ CLI
+*********************************/
+ng generate component home/ ng g c home
+ng g s productser
+ng g p mypipe
+ng g m mymodule

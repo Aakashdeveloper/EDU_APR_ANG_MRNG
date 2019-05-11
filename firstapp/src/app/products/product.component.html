@@ -1,3 +1,7 @@
+<h3 [ngStyle]="{color:getColor()}"
+    [ngClass]="{online: serverstatus==='Online'}">
+    Server status is {{serverstatus}}
+</h3>
 <div  class="panel panel-primary">
     <div class="panel-heading">
         {{mainHeading}}
@@ -41,13 +45,19 @@
                 <tbody>
                     <tr *ngFor="let prod of products | productSearch:userText">
                         <td>
-                            <img [src]="prod.imageUrl"  *ngIf="showImage"/>
+                            <img [src]="prod.imageUrl"  *ngIf="showImage"
+                            [style.width.px]="imageWidth"/>
                         </td>
-                        <td>{{prod.productName | myUpperText:'lower':'aakash'}}</td>
+                        <td style="color:yellowgreen">
+                            {{prod.productName | myUpperText:'lower':'aakash'}}
+                        </td>
                         <td>{{prod.productCode | myUpperText:'upper'}}</td>
                         <td>{{prod.releaseDate | date}}</td>
-                        <td>{{prod.price  | discount  | currency:'INR'}}</td>
-                        <td>{{prod.starRating}}</td>
+                        <td [ngStyle]="{'background-color':prod.price<25?'hotpink':'skyblue'}">
+                            {{prod.price  | discount  | currency:'INR'}}
+                        </td>
+                        <app-star [rating]="prod.starRating"
+                            (ratingClicked)="onDataRecive($event)"></app-star>
                     </tr>
                 </tbody>
             </table>

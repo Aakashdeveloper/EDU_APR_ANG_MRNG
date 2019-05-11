@@ -12,6 +12,9 @@ import { ProductComponent } from './products/product.component';
 import { MyUpperPipe } from './products/myUpper.pipe';
 import { DiscountPipe } from './products/myDiscount.pipe';
 import { ProductSearchPipe } from './products/productFilter.pipe';
+import { StarComponent } from './shared/star.component';
+import { ProductService } from './products/product.service';
+import { HomeComponent } from './home/home.component';
 
 
 // decorater (matadata)
@@ -29,7 +32,9 @@ import { ProductSearchPipe } from './products/productFilter.pipe';
         ProductComponent,
         MyUpperPipe,
         DiscountPipe,
-        ProductSearchPipe
+        ProductSearchPipe,
+        StarComponent,
+        HomeComponent
     ],
 
     // Only first/main component
@@ -38,7 +43,9 @@ import { ProductSearchPipe } from './products/productFilter.pipe';
     ],
 
     // All Services will declare here
-    providers: []
+    providers: [
+        ProductService
+    ]
 })
 
 

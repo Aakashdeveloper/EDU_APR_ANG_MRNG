@@ -20,7 +20,7 @@ export class StarComponent implements OnChanges, OnInit {
     // This event fires when it detect the change
     ngOnChanges() {
         console.log('>>>>>inside onchanges');
-        this.starWidth = this.rating * 86 / 6;
+        this.starWidth = this.rating * 86 / 5;
     }
 
     // This fires after onchanges

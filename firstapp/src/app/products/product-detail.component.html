@@ -1,0 +1,16 @@
+<div class="panel panel-success">
+        <div class="panel-heading">
+          Product Detail Component
+        </div>
+        <div class="panel-body">
+                Product Detail Content Here for {{id}}
+                <h1>{{details[0].productName}}</h1>
+                <img [src]="details[0].imageUrl"/>
+                <h2>{{details[0].description}}</h2>
+                <br/>
+            <button class="btn btn-danger" (click)="onBack()">
+                <<Back
+            </button>
+        </div>
+      </div>  
+      

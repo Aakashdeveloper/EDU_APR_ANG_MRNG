@@ -314,3 +314,10 @@ ng generate component home/ ng g c home
 ng g s productser
 ng g p mypipe
 ng g m mymodule
+
+
+/*********************************
+ Fake Api
+*********************************/
+npm i  -g json-server 
+json-server --watch artistsample.json --port 8900

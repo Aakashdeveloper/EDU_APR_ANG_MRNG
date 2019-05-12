@@ -3,7 +3,6 @@ import { IProduct } from './product.model';
 import { ProductService } from './product.service';
 
 @Component({
-    selector: 'app-product',
     templateUrl: './product.component.html',
     // styles: ['thead{color:teal}', 'h4{color:tomato}']
     styleUrls: ['./product.component.css'],
@@ -29,7 +28,8 @@ export class ProductComponent implements OnInit {
     products: IProduct[];
 
     ngOnInit(): void {
-      this.products = this.productService.getProducts();
+      this.productService.getProducts()
+        .subscribe((data) => this.products = data);
     }
 
     toggleImage(): void {

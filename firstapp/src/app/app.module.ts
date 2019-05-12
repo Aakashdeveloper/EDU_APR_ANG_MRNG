@@ -5,6 +5,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 // For forms Element
 import { FormsModule } from '@angular/Forms';
+// For Http call
+import { HttpClientModule } from '@angular/common/http';
+// For Routing
+import { RouterModule } from '@angular/router';
 // Component
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './movies.component';
@@ -15,6 +19,13 @@ import { ProductSearchPipe } from './products/productFilter.pipe';
 import { StarComponent } from './shared/star.component';
 import { ProductService } from './products/product.service';
 import { HomeComponent } from './home/home.component';
+import { MusicComponent } from './music/music.component';
+import { OrdersComponent } from './orders/orders.component';
+import { NotFoundComponent } from './shared/notFound.component';
+import { ProductDetailComponent } from './products/product-detail.component';
+import { MusicService } from './music/music.service';
+import { MusicModule } from './music/music.module';
+import { ProductModule } from './products/product.module';
 
 
 // decorater (matadata)
@@ -22,7 +33,19 @@ import { HomeComponent } from './home/home.component';
     // All Module will declare here
     imports: [
         BrowserModule,
-        FormsModule
+        FormsModule,
+        HttpClientModule,
+        RouterModule.forRoot([
+            {path: 'products', component: ProductComponent},
+            {path: 'products/:id', component: ProductDetailComponent},
+            {path: 'orders', component: OrdersComponent },
+            {path: 'music', component: MusicComponent },
+            {path: 'home', component: HomeComponent },
+            {path: '', redirectTo: 'home', pathMatch: 'full' },
+            {path: '**', component: NotFoundComponent },
+        ]),
+        ProductModule,
+        MusicModule
     ],
 
     // All Component and pipe
@@ -34,7 +57,11 @@ import { HomeComponent } from './home/home.component';
         DiscountPipe,
         ProductSearchPipe,
         StarComponent,
-        HomeComponent
+        HomeComponent,
+        MusicComponent,
+        OrdersComponent,
+        NotFoundComponent,
+        ProductDetailComponent
     ],
 
     // Only first/main component
@@ -44,7 +71,8 @@ import { HomeComponent } from './home/home.component';
 
     // All Services will declare here
     providers: [
-        ProductService
+        ProductService,
+        MusicService
     ]
 })
 

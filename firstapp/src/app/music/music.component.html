@@ -1,0 +1,37 @@
+<div class="panel panel-success">
+  <div class="panel-heading">
+    Music Component
+  </div>
+  <div class="panel-body">
+    <div *ngFor= "let music of musicData">
+        <br/>
+        <button type="button" class="btn btn-info btn-lg" 
+          data-toggle="modal" [attr.data-target]="'#'+music.cover">
+          {{music.name}}
+        </button>
+        <!-- Modal -->
+        <div id="{{music.cover}}" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">{{music.name}}</h4>
+                </div>
+                <div class="modal-body">
+                  <ul *ngFor="let albums of music.albums ">
+                    <li>{{albums.title}}</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+
+    </div>
+  </div>
+</div>  

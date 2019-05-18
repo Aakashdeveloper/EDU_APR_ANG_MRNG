@@ -1,0 +1,41 @@
+<div class="panel panel-primary">
+        <div class="panel-heading">
+            Login Form
+        </div>
+        <div class="panel-body">
+            <form #form="ngForm" (submit)="loginForm(form)">
+                <div class="form-group" [class.has-error]="Email.invalid && Email.touched">
+                        <label for="mail" class="control-label">
+                            Email
+                        </label>
+                        <input type="email" placeholder="Email"
+                        id="mail" name="email"
+                        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                        [(ngModel)]="mymodel.email"
+                        #Email="ngModel"
+                        class="form-control"/>
+                        <div class="alert alert-danger" *ngIf="Email.invalid && Email.touched">
+                            Please enter valid Email
+                        </div>
+                </div>
+                <div class="form-group" [class.has-error]="Password.invalid && Password.touched">
+                        <label for="pwd" class="control-label">
+                            Password
+                        </label>
+                        <input type="password" placeholder="Password"
+                        id="pwd" name="password"
+                        [(ngModel)]="mymodel.password"
+                        minlength="8"
+                        #Password="ngModel"
+                        class="form-control"/>
+                        <div class="alert alert-danger" *ngIf="Password.invalid && Password.touched">
+                                Min length of Password is 8
+                        </div>
+                </div>
+                <button class="btn btn-success"
+                    type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>

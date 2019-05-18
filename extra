@@ -321,3 +321,20 @@ ng g m mymodule
 *********************************/
 npm i  -g json-server 
 json-server --watch artistsample.json --port 8900
+
+
+/*********************************
+ Form Classes in Angular
+*********************************/
+ng-pristine    ng-untouched     ng-valid
+ng-dirty       ng-touched       ng-invalid
+
+
+/*********************************
+ Login Api
+*********************************/
+
+Register User => http://localhost:5000/api/auth/register
+Login User    => http://localhost:5000/api/auth/login
+UserInfo      => http://localhost:5000/api/auth/userinfo
+List of User  => http://localhost:5000/api/auth/users

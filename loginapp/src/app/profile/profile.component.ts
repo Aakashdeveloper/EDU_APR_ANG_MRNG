@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-
-// import { FormPosterService } from '../services/form-poster.service';
+import { Component, OnInit } from '@angular/core';
+import { LoginService } from '../login-form/login.service';
 
 @Component({
     selector: 'app-cust',
@@ -8,18 +7,16 @@ import { Component } from '@angular/core';
 })
 
 
-export class ProfileComponent {
+export class ProfileComponent implements OnInit {
 
-    // mymodel = new LoginModal('j@gmail.com', '12345678');
+   userinfo;
+   token: string;
 
+    constructor(private loginService: LoginService) {}
 
-
-    // constructor(private formPosterService: FormPosterService) {}
-
-    /*submitForm(form: NgForm): void {
-        // console.log('>>>>FormData<<<<', form.value);
-        this.formPosterService.postCustomer(form.value)
-            .subscribe((res) =>  console.log('data posted'));
+    ngOnInit() {
+        this.token = localStorage.getItem('TOKEN_NUMBER');
+        this.loginService.getUserRole(this.token)
+            .subscribe((res) => this.userinfo = res);
     }
-*/
 }

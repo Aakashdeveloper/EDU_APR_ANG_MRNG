@@ -338,3 +338,16 @@ Register User => http://localhost:5000/api/auth/register
 Login User    => http://localhost:5000/api/auth/login
 UserInfo      => http://localhost:5000/api/auth/userinfo
 List of User  => http://localhost:5000/api/auth/users
+
+/*********************************
+ Setp to create docker image
+*********************************/
+> create Dockerfile
+> docker build . -t <imagename>
+
+> docker image ls 
+> docker run -p 9000:8800 <imagename>
+> docker run -p externalport:internalport <imagename>
+
+
+nginx.conf

@@ -19,7 +19,13 @@ export class LoginFormComponent {
 
     loginForm(form: NgForm): void {
         this.loginService.loginUser(form.value)
-            .subscribe((res) =>  this.router.navigate(['/profile']));
+            .subscribe((res) =>  this.loginService.getUserRole(res['token'])
+            .subscribe((response) => this.validateUser(response['role'])));
+    }
+
+    validateUser(typeOfUser): void {
+        localStorage.setItem('ROLE_TYPE', typeOfUser);
+        this.router.navigate(['/profile']);
     }
 
 }

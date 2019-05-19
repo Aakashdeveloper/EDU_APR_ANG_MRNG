@@ -13,7 +13,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li><a [routerLink]="['/login']"><span class="glyphicon glyphicon-log-in"></span> login</a></li>
-              <li><a><span  class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+              <li><a (click)="logoutUser()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
             </ul>
           </div>
         </div>

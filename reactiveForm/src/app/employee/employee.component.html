@@ -1,0 +1,143 @@
+<div class="panel panel-danger">
+    <div class="panel-heading">
+        Reactive Form
+    </div>
+    <div class="panel-body">
+        <form class="form-horizontal" (ngSubmit)="save()"
+            [formGroup]="employeeForm">
+            <div class="form-group" [ngClass]="{'has-error':(!employeeForm.get('firstName').valid)}">
+                <label class="col-md-2 control-label" for="fname">
+                    FirstName
+                </label> 
+                <div class="col-md-8">
+                    <input type="text" class="form-control"
+                        formControlName="firstName"
+                        id="fname"
+                        placeholder="firstName"
+                    />
+                    <span class="help-block" *ngIf="(employeeForm.get('firstName').errors)">
+                        <span *ngIf="employeeForm.get('firstName').errors.required">
+                            FirstName is required
+                        </span>
+                        <span *ngIf="employeeForm.get('firstName').errors.minlength">
+                            FirstName min length is 3
+                        </span>
+                    </span>
+                </div>
+            </div>
+<!------------------------------Email Start------------------------------>
+            <div class="form-group" 
+                [ngClass]="{'has-error':(!employeeForm.get('email').valid)}">
+                    <label class="col-md-2 control-label" for="mail">
+                        Email
+                    </label> 
+                    <div class="col-md-8">
+                        <input type="text" class="form-control"
+                            formControlName="email"
+                            id="mail"
+                            placeholder="email"
+                        />
+                        <span class="help-block" *ngIf="(employeeForm.get('email').errors)">
+                            <span *ngIf="employeeForm.get('email').errors.required">
+                                Email is required
+                            </span>
+                            <span *ngIf="employeeForm.get('email').errors.pattern">
+                                Enter Valid Email
+                            </span>
+                        </span>
+                    </div>
+            </div>
+<!------------------------------Passweod Start------------------------------>
+            <div class="form-group" [ngClass]="{'has-error':(!employeeForm.get('password').valid)}">
+                    <label class="col-md-2 control-label" for="pwd">
+                        Password
+                    </label> 
+                    <div class="col-md-8">
+                        <input type="text" class="form-control"
+                            formControlName="password"
+                            id="pwd"
+                            placeholder="password"
+                        />
+                        <span class="help-block" *ngIf="(employeeForm.get('password').errors)">
+                                <span *ngIf="employeeForm.get('password').errors.required">
+                                    Password is required
+                                </span>
+                                <span *ngIf="employeeForm.get('password').errors.minlength">
+                                    Min length of password is 5
+                                </span>
+                            </span>
+                    </div>
+            </div>
+<!------------------------------Radio Start------------------------------>
+        <div class="form-group">
+            <label class="col-md-2 control-label">
+               Notification
+            </label>
+            <div class="col-md-8">
+                <label class="radio-inline">
+                    <input type="radio" value="phone"
+                    formControlName="notification"
+                    (click)="setNotification('phone')">
+                    Phone
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" value="email"
+                    formControlName="notification"
+                    (click)="setNotification('email')">
+                        Email
+                </label>
+            </div>
+        </div>
+<!------------------------------Phone Start------------------------------>
+        <div class="form-group" [ngClass]="{'has-error':(!employeeForm.get('phone').valid)}">
+                <label class="col-md-2 control-label" for="phn">
+                    Phone
+                </label> 
+                <div class="col-md-8">
+                    <input type="text" class="form-control"
+                        formControlName="phone"
+                        id="phn"
+                        placeholder="phone"
+                    />
+                    <span class="help-block" *ngIf="(employeeForm.get('phone').errors)">
+                            <span *ngIf="employeeForm.get('phone').errors.required">
+                                Phone is required
+                            </span>
+                        </span>
+                </div>
+        </div>
+<!------------------------------Rating Start------------------------------>
+        <div class="form-group" [ngClass]="{'has-error':(!employeeForm.get('rating').valid)}">
+                <label class="col-md-2 control-label" for="rate">
+                    Rating
+                </label> 
+                <div class="col-md-8">
+                    <input type="text" class="form-control"
+                        formControlName="rating"
+                        id="rate"
+                        placeholder="rating"
+                    />
+                    <span class="help-block" *ngIf="(employeeForm.get('rating').errors)">
+                            <span *ngIf="employeeForm.get('rating').errors.required">
+                                Please Enter Rating
+                            </span>
+                            <span *ngIf="employeeForm.get('rating').errors.range">
+                                Enter Rating between 1 to 5
+                            </span>
+                        </span>
+                </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4 col-md-offset-2">
+                <span>
+                    <button type="submit"
+                    class="btn btn-success"
+                    [disabled]="!employeeForm.valid">
+                    Submit
+                </button>
+                </span>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
